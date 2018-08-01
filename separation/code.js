@@ -1,9 +1,10 @@
 var person = {
-    firstName: "jack",
-    lastName: "bandak",
+    firstName : "jack",
+    lastName : "bandak",
     age: 16,
-    favoriteFoods: ["burgers", "pinapple"],
+    favoriteFoods : ["burgers", "pinapple"],
+    image : "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350"
     
 }
-JSON.stringify(<person>)
-alert(person)
+person = JSON.stringify(person)
+document.write(person)
