@@ -1,1 +1,4 @@
-// Put all your JavaScript in this file!
+function promptme() {
+    var a=prompt("choose a color");
+    document.body.style.background = a;
+}
